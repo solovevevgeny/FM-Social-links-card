@@ -57,10 +57,14 @@ main {
 }
 
 .links-card__name {
-    font-size: var(--fs-huge);
+    
     color: var(--col-white);
     font-weight: var(--fw-large);
     margin-bottom: 10px;    
+}
+
+.links-card__name h1 {
+    font-size: var(--fs-huge);
 }
 
 .links-card__image img{
